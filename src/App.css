@@ -1,0 +1,63 @@
+*{
+  font-family:'Courier New', Courier, monospace;
+  box-sizing: border-box;
+
+}
+.container
+{
+  background-color: aliceblue;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 30px auto;
+  border-radius: 20px;
+  padding: 10px;
+}
+h2{
+  text-align: center;
+}
+form{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+input{
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 16px;
+
+}
+
+
+.recipe{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-top: 20px;
+}
+
+ .card{
+  width: 200px;
+  background-color: beige;
+  margin: 10px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+
+ }
+.card-image{
+  width: 100%;
+  border-radius: 5px;
+}
+.card-body{
+  padding: 10px;
+  text-align: center;
+}
+
+a{
+  background-color: orange;
+  color:wheat;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+
+
+} 
